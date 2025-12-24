@@ -1,0 +1,10 @@
+[ LiDAR ] ----> [ Ray Casting ] ----> [ Point Cloud ]
+      ^                                                ^
+      |                                                |
+[ Depth Camera ] -> [ Pixel Grid Projection ] -> [ Depth Image ]
+      ^                                                ^
+      |                                                |
+[ IMU ] --------> [ Ground Truth Motion ] --> [ Accel/Angular Rate ]
+      ^                                                |
+      | Noise/Bias Modeling                            | Sensor Fusion
+      +------------------------------------------------+

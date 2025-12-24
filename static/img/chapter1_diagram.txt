@@ -1,0 +1,4 @@
+[ AI (Algorithms) ] <--- Embodied AI ---> [ Robotics (Hardware) ]
+      ^                                      ^
+      |                                      |
+[ Simulation ]                         [ Real World ]

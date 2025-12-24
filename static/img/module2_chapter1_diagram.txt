@@ -1,0 +1,8 @@
+[ Physical Robot ] <--- Data/Control ---> [ Digital Twin (Virtual Model) ]
+      ^                                      ^
+      | Real-time Data                       | Simulation/Prediction
+      v                                      v
+[ Sensors ] ----> [ Physics Engine (Gazebo) ] <----> [ Rendering/Interaction (Unity) ]
+      ^                                      |
+      | Simulated Sensor Data                |
+      +--------------------------------------+

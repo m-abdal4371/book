@@ -1,0 +1,7 @@
+[ Perception Training ] <---- Visual Realism ----> [ Human-Robot Interaction ]
+      ^                                      ^
+      |                                      |
+[ Unity Engine ] --- Advanced Rendering ----> [ Interactive Environments ]
+      ^                                      |
+      | Extensibility/Asset Store            | Cross-Platform Deployment
+      +--------------------------------------+

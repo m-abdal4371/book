@@ -1,0 +1,7 @@
+[ Node A (Publisher) ] --publishes--> [ /my_topic (Topic) ] <--subscribes-- [ Node B (Subscriber) ]
+                                                              ^
+                                                              |
+                                                        subscribes
+                                                              |
+                                                              v
+                                                      [ Node C (Subscriber) ]
